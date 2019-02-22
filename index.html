@@ -9,7 +9,9 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/range.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -19,10 +21,43 @@
 		<script src="js/range.js"></script>
 	</head>
 	<body>
-		<div class="col-md-6" style="margin-top: 50px;">
-			<div class="slider-wrapper slider-ghost">
-				<input class="input-range" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-tooltip="always" data-slider-max="100" data-slider-step="1" data-slider-value="14"/>
-			</div>
-		</div>
+		<header>
+			<nav>MENU</nav>
+			
+		</header>
+		<main class="container-eq-height">
+			<section id="sidebar" class="col-md-3"></section>
+			<section id="content" class="col-md-9">
+				<h1>Calculadora dieta SGS-2</h1>
+				<div class="container-w">
+					<h2>Tabla</h2>
+					<table class="container-full text-center">
+						<tr>
+							<td>lalala</td>
+							<td>lalala</td>
+						</tr>
+					</table>
+				</div>
+				<div class="container-w">
+					<h2>Alimentos</h2>
+					<div class="food">
+						<img src="images/apple.svg">
+						<div class="slider-wrapper slider-ghost">
+							<input class="input-range" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-tooltip="always" data-slider-max="100" data-slider-step="1" data-slider-value="14"/>
+						</div>
+					</div>
+					<div class="food">
+						<img src="images/strawberry.svg">
+						<div class="slider-wrapper slider-ghost">
+							<input class="input-range" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-tooltip="always" data-slider-max="100" data-slider-step="1" data-slider-value="14"/>
+						</div>
+					</div>
+					<div style="clear: both;"></div>
+				</div>				
+			</section>
+		</main>
+		<footer>
+			PIE
+		</footer>
 	</body>
 </html>
