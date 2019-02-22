@@ -15,7 +15,7 @@ main{
 footer{
 	background: #102238;
 }
-h1, h2, h3, h4{
+h1 {
 	color: #102238;
 }
 #sidebar{
@@ -55,4 +55,22 @@ h1, h2, h3, h4{
     margin: 20px 0 10px 10px;
 	width: calc(100% - 50px);
 	display: inline-block;
+}
+.tabl-gen{
+	font-size: 18px;
+    letter-spacing: 0.9px;
+    line-height: 32px;
+    font-family: Roboto, sans-serif;
+}
+.tabl-gen .tabl-gen-num{
+	font-size: 36px;
+	font-weight: bold;
+	display: block;
+	padding: 10px;
+}
+.line-right{
+	border-right: 1px solid #bdbdbd;
+}
+.main-color{
+	color: #375D81;
 }
