@@ -18,6 +18,11 @@ footer{
 h1 {
 	color: #102238;
 }
+h2{
+	margin: 20px 0 30px 50px;
+	text-align: left;
+	font-size: 18px;
+}
 #sidebar{
 	background: #375D81;
     display: table-cell;
@@ -73,4 +78,22 @@ h1 {
 }
 .main-color{
 	color: #375D81;
+}
+#ingredients li{
+	list-style: none;
+	text-align: left;
+	height: 30px;
+}
+#ingredients li > span{
+	display: inline-block;
+	font-size: 18px;
+	position: relative;
+	top: 2px;
+	text-align: center;
+}
+#ingredients li > span:nth-child(1){
+	width: 70px;
+}
+#ingredients li > span:nth-child(2){
+	width: 40px;
 }
