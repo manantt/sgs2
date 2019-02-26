@@ -6,29 +6,29 @@
  */
 food = [
 	{
-		"nombre" : "Manzana",
-		"descripcion" : "Una manzana",
+		"name" : "Manzana",
+		"description" : "Una manzana",
 		"icono" : "apple",
 		"color" : "#ff0000",
-		"calcio" : 6,
-		"fosforo" : 11,
-		"oxalatos" : 2,
+		"calcium" : 6,
+		"phosphor" : 11,
+		"oxalates" : 2,
 		"cal" : 52,
-		"hdc" : 13.8,
-		"grasas" : 0.2,
-		"proteinas" : 0.3
+		"carbohydrates" : 13.8,
+		"fats" : 0.2,
+		"proteins" : 0.3
 	},
 	{
-		"nombre" : "Fresa",
-		"descripcion" : "Una fresa",
+		"name" : "Fresa",
+		"description" : "Una fresa",
 		"icono" : "strawberry",
 		"color" : "#ff0000",
-		"calcio" : 16,
-		"fosforo" : 24,
-		"oxalatos" : 2,
+		"calcium" : 16,
+		"phosphor" : 24,
+		"oxalates" : 2,
 		"cal" : 32,
-		"hdc" : 7.7,
-		"grasas" : 0.3,
-		"proteinas" : 0.7
+		"carbohydrates" : 7.7,
+		"fats" : 0.3,
+		"" : 0.7
 	}
 ];
