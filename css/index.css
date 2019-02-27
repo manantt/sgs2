@@ -84,6 +84,9 @@ h1 {
 .color-danger{
 	color: #dd4b39;
 }
+#food-oxalates, #food-ratium, #food-quantity{
+	font-weight: bold;
+}
 #food-oxalates-health i.fa-2x{
 	position: relative;
 	top: 5px;
