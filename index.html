@@ -18,6 +18,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 		<script src="https://use.fontawesome.com/fd9dba5260.js"></script>
 		<script src="js/food-data.js"></script>
 		<script src="js/range.js"></script>
@@ -47,8 +48,12 @@
 					<div class="row">
 						<div class="col-md-3 tabl-gen line-right"><span class="tabl-gen-num">Cantidad i</span><span id="food-quantity">450</span> g</div>
 						<div class="col-md-3 tabl-gen line-right"><span class="tabl-gen-num">Ratio i</span><span id="food-ratium">2</span> : 1</div>
-						<div class="col-md-3 tabl-gen line-right"><span class="tabl-gen-num">Oxalatos i</span>Bajos</div>
-						<div class="col-md-3 tabl-gen">aaaaaaaaa</div>
+						<div class="col-md-3 tabl-gen line-right"><span class="tabl-gen-num">Oxalatos i</span><span id="food-oxalates-health">Bajos</span> <span id="food-oxalates">0</span></div>
+						<div class="col-md-3 tabl-gen">
+							<div id="chart-container">
+								<canvas id="macros-chart" width="300" height="100"></canvas>
+							</div>
+						</div>
 					</div>
 					<div id="food-container"></div>
 					<div style="clear: both;"></div>

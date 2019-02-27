@@ -13,7 +13,6 @@ function customRange(){
         $( this ).slider(
             {
                 formatter: function(value) {
-                console.log(value);
                 return value + 'g';
             },
             min: parseFloat( $( this ).attr('data-slider-min') ),

@@ -12,7 +12,7 @@ food = [
 		"color" : "#ff0000",
 		"calcium" : 6,
 		"phosphor" : 11,
-		"oxalates" : 2,
+		"oxalates" : 8,
 		"cal" : 52,
 		"carbohydrates" : 13.8,
 		"fats" : 0.2,
@@ -25,10 +25,10 @@ food = [
 		"color" : "#ff0000",
 		"calcium" : 16,
 		"phosphor" : 24,
-		"oxalates" : 2,
+		"oxalates" : 55,
 		"cal" : 32,
 		"carbohydrates" : 7.7,
 		"fats" : 0.3,
-		"" : 0.7
+		"proteins" : 0.7
 	}
 ];
