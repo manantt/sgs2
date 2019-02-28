@@ -1,6 +1,15 @@
 .slider-selection {
     background: #375D81 !important;
 }
+.slider-ghost.oxa-low .slider-selection {
+    background: #62b22e !important;
+}
+.slider-ghost.oxa-medium .slider-selection {
+    background: #f0ad4e !important;
+}
+.slider-ghost.oxa-high .slider-selection {
+    background: #dd4b39 !important;
+}
 .slider.slider-horizontal {
     width: 100% !important;
     height: 20px;
@@ -45,4 +54,13 @@
 .slider-ghost .slider-handle {
     top: -2px !important;
     border: 5px solid #375D81;
+}
+.slider-ghost.oxa-low .slider-handle {
+    border: 5px solid #62b22e;
+}
+.slider-ghost.oxa-medium .slider-handle {
+    border: 5px solid #f0ad4e;
+}
+.slider-ghost.oxa-high .slider-handle {
+    border: 5px solid #dd4b39;
 }

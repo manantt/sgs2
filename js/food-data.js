@@ -6,7 +6,7 @@
  */
 food = [
 	//oxalatos bajos
-	{
+	/*{
 		"name" : "Fresa",
 		"description" : "Una fresa",
 		"icono" : "strawberry",
@@ -18,11 +18,11 @@ food = [
 		"carbohydrates" : 7.7,
 		"fats" : 0.3,
 		"proteins" : 0.7
-	},
+	},*/
 	{
 		"name" : "Banana",
 		"description" : "",
-		"icono" : "icon",
+		"icono" : "banana",
 		"color" : "#000000",
 		"calcium" : 5,
 		"phosphor" : 22,
@@ -35,7 +35,7 @@ food = [
 	{
 		"name" : "Pomelo",
 		"description" : "",
-		"icono" : "icon",
+		"icono" : "pomelo",
 		"color" : "#000000",
 		"calcium" : 12,
 		"phosphor" : 8,
@@ -48,7 +48,7 @@ food = [
 	{
 		"name" : "Mango",
 		"description" : "",
-		"icono" : "icon",
+		"icono" : "mango",
 		"color" : "#000000",
 		"calcium" : 11,
 		"phosphor" : 14,
@@ -61,7 +61,7 @@ food = [
 	{
 		"name" : "Papaya",
 		"description" : "",
-		"icono" : "icon",
+		"icono" : "papaya",
 		"color" : "#000000",
 		"calcium" : 20,
 		"phosphor" : 10,
@@ -74,7 +74,7 @@ food = [
 	{
 		"name" : "Melocotón",
 		"description" : "",
-		"icono" : "icon",
+		"icono" : "melocoton",
 		"color" : "#000000",
 		"calcium" : 6,
 		"phosphor" : 20,
@@ -87,7 +87,7 @@ food = [
 	{
 		"name" : "Pepino",
 		"description" : "",
-		"icono" : "icon",
+		"icono" : "pepino",
 		"color" : "#000000",
 		"calcium" : 16,
 		"phosphor" : 24,
@@ -100,7 +100,7 @@ food = [
 	{
 		"name" : "Guisantes",
 		"description" : "Guisantes crudos",
-		"icono" : "icon",
+		"icono" : "guisante",
 		"color" : "#000000",
 		"calcium" : 25,
 		"phosphor" : 108,
@@ -127,7 +127,7 @@ food = [
 	{
 		"name" : "Brócoli",
 		"description" : "Brócoli crudo",
-		"icono" : "icon",
+		"icono" : "brocoli",
 		"color" : "#000000",
 		"calcium" : 47,
 		"phosphor" : 66,
@@ -140,7 +140,7 @@ food = [
 	{
 		"name" : "Calabaza",
 		"description" : "Calabaza cruda sin piel",
-		"icono" : "icon",
+		"icono" : "calabaza",
 		"color" : "#000000",
 		"calcium" : 20,
 		"phosphor" : 32,
@@ -153,7 +153,7 @@ food = [
 	{
 		"name" : "Pimiento rojo",
 		"description" : "",
-		"icono" : "icon",
+		"icono" : "pimienta",
 		"color" : "#000000",
 		"calcium" : 7,
 		"phosphor" : 26,
@@ -166,11 +166,11 @@ food = [
 	{
 		"name" : "Calabacín",
 		"description" : "Calabacín crudo",
-		"icono" : "icon",
+		"icono" : "calabacin",
 		"color" : "#000000",
 		"calcium" : 33,
 		"phosphor" : 36,
-		"oxalates" : 0,
+		"oxalates" : 10,
 		"cal" : 40,
 		"carbohydrates" : 10.4,
 		"fats" : 0.1,
@@ -180,11 +180,11 @@ food = [
 	{
 		"name" : "Zanahoria",
 		"description" : "Zanahoria cruda",
-		"icono" : "icon",
+		"icono" : "zanahoria",
 		"color" : "#000000",
 		"calcium" : 33,
 		"phosphor" : 35,
-		"oxalates" : 0,
+		"oxalates" : 100,
 		"cal" : 41,
 		"carbohydrates" : 9.6,
 		"fats" : 0.2,
