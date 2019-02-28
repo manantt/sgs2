@@ -53,7 +53,6 @@ h2{
 	width: 30px;
 	height: 30px;
 	display: inline-block;
-	cursor: help;
 }
 .slider-wrapper{
 	position: relative;
@@ -88,6 +87,8 @@ h2{
 #ingredients li > span{
 	display: inline-block;
 	font-size: 18px;
+	position: relative;
+	top: 2px;
 	text-align: center;
 }
 #ingredients li > span:nth-child(1){
@@ -95,30 +96,4 @@ h2{
 }
 #ingredients li > span:nth-child(2){
 	width: 40px;
-}
-.color-success{
-	color: #62b22e;
-}
-.color-warning{
-	color: #f0ad4e;
-}
-.color-danger{
-	color: #dd4b39;
-}
-#food-oxalates, #food-ratium, #food-quantity{
-	font-weight: bold;
-}
-#food-oxalates-health i.fa-2x{
-	position: relative;
-	top: 5px;
-	cursor: help;
-}
-#chart-container{
-	width: 300px;
-	height: 100px;
-	margin: auto;
-}
-.fa-question-circle.color-success{
-	cursor: help;
-	font-size: 14px;
 }

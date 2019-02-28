@@ -80,6 +80,7 @@ h2{
 .main-color{
 	color: #375D81;
 }
+<<<<<<< HEAD
 #ingredients li{
 	list-style: none;
 	text-align: left;
@@ -88,6 +89,8 @@ h2{
 #ingredients li > span{
 	display: inline-block;
 	font-size: 18px;
+	position: relative;
+	top: 2px;
 	text-align: center;
 }
 #ingredients li > span:nth-child(1){
@@ -95,7 +98,7 @@ h2{
 }
 #ingredients li > span:nth-child(2){
 	width: 40px;
-}
+=======
 .color-success{
 	color: #62b22e;
 }
@@ -117,8 +120,5 @@ h2{
 	width: 300px;
 	height: 100px;
 	margin: auto;
-}
-.fa-question-circle.color-success{
-	cursor: help;
-	font-size: 14px;
+>>>>>>> 94e7ccaef1df29bda869a23544314800cf7f317f
 }
