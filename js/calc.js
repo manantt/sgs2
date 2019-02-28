@@ -48,7 +48,7 @@ var chart;
  	$("#food-ratium").html(ratium.toFixed(2));
  	//oxalates
  	var totalOxalates = totalQuantity != 0 ? (totalOxalates * 100 / totalQuantity).toFixed(2) : 0;
- 	var oxalatesHealth = totalOxalates >= oxalatesRanges[0] ? totalOxalates >= oxalatesRanges[1] ? oxalatesHealthTexts["high"] : oxalatesHealthTexts["medium"] : oxalatesHealthTexts["low"];
+ 	var oxalatesHealth = totalOxalates > oxalatesRanges[0] ? totalOxalates > oxalatesRanges[1] ? oxalatesHealthTexts["high"] : oxalatesHealthTexts["medium"] : oxalatesHealthTexts["low"];
  	$("#food-oxalates").html(totalOxalates);
  	$("#food-oxalates-health").html(oxalatesHealth);
  	//macros
