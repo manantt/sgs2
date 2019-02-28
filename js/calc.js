@@ -1,4 +1,4 @@
-var oxalatesRanges = [10, 50]
+var oxalatesRanges = [2.8, 4]
 var oxalatesHealthTexts = {
 	"low": '<i class="fa fa-2x fa-check-circle color-success" aria-hidden="true" data-toggle="popover" data-placement="top" data-trigger="hover" data-html="true" data-content="Bajos" data-html="true" title="<b>Bajos</b>"></i>',
 	"medium": '<i class="fa fa-2x fa-exclamation-triangle color-warning" aria-hidden="true" data-toggle="popover" data-placement="top" data-trigger="hover" data-html="true" data-content="Medios" data-html="true" title="<b>Medios</b>"></i>',

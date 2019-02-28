@@ -6,19 +6,32 @@
  */
 food = [
 	//oxalatos bajos
-	/*{
+	{
 		"name" : "Fresa",
 		"description" : "Una fresa",
 		"icono" : "strawberry",
 		"color" : "#ff0000",
 		"calcium" : 16,
 		"phosphor" : 24,
-		"oxalates" : 55,
+		"oxalates" : 1,
 		"cal" : 32,
 		"carbohydrates" : 7.7,
 		"fats" : 0.3,
 		"proteins" : 0.7
-	},*/
+	},
+	{
+		"name" : "Col",
+		"description" : "Col cruda",
+		"icono" : "col",
+		"color" : "#000000",
+		"calcium" : 40,
+		"phosphor" : 26,
+		"oxalates" : 1,
+		"cal" : 25,
+		"carbohydrates" : 5.8,
+		"fats" : 0.1,
+		"proteins" : 1.3
+	},
 	{
 		"name" : "Banana",
 		"description" : "",
@@ -118,7 +131,7 @@ food = [
 		"color" : "#ff0000",
 		"calcium" : 6,
 		"phosphor" : 11,
-		"oxalates" : 8,
+		"oxalates" : 10,
 		"cal" : 52,
 		"carbohydrates" : 13.8,
 		"fats" : 0.2,
@@ -184,7 +197,7 @@ food = [
 		"color" : "#000000",
 		"calcium" : 33,
 		"phosphor" : 35,
-		"oxalates" : 100,
+		"oxalates" : 30,
 		"cal" : 41,
 		"carbohydrates" : 9.6,
 		"fats" : 0.2,
