@@ -54,6 +54,7 @@ h2{
 	height: 30px;
 	display: inline-block;
 	cursor: help;
+	margin-right: 5px;
 }
 .slider-wrapper{
 	position: relative;
@@ -91,7 +92,7 @@ h2{
 	text-align: center;
 }
 #ingredients li > span:nth-child(1){
-	width: 70px;
+	width: 80px;
 }
 #ingredients li > span:nth-child(2){
 	width: 40px;
@@ -121,4 +122,29 @@ h2{
 .fa-question-circle.color-success{
 	cursor: help;
 	font-size: 14px;
+}
+footer{
+	color: #C4D7ED;
+}
+#footer-list{
+	margin: 0;
+}
+#footer-list li{
+	margin-right: 50px;
+}
+#copyright, #sources{
+	display: inline-block;
+}
+#copyright{
+	display: inline-block;
+}
+#sources ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#sources ul li{
+	display: inline-block;
+	margin: 0;
+	padding: 5px 5px 5px 15px;
 }
