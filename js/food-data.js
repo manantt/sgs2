@@ -60,7 +60,7 @@ food = [
 	},
 	{
 		"name" : "Papaya",
-		"description" : "",
+		"description" : "Papaya pelada.",
 		"icono" : "papaya",
 		"color" : "#000000",
 		"calcium" : 20,
@@ -73,7 +73,7 @@ food = [
 	},
 	{
 		"name" : "Kale",
-		"description" : "",
+		"description" : "Kale cruda.",
 		"icono" : "kale",
 		"color" : "#000000",
 		"calcium" : 150,
@@ -99,7 +99,7 @@ food = [
 	},
 	{
 		"name" : "Pomelo",
-		"description" : "",
+		"description" : "Pomelo pelado.",
 		"icono" : "pomelo",
 		"color" : "#000000",
 		"calcium" : 12,
@@ -138,7 +138,7 @@ food = [
 	},
 	{
 		"name" : "Mango",
-		"description" : "",
+		"description" : "Mango pelado.",
 		"icono" : "mango",
 		"color" : "#000000",
 		"calcium" : 11,
@@ -177,7 +177,7 @@ food = [
 	},
 	{
 		"name" : "Pepino",
-		"description" : "",
+		"description" : "Pepino pelado.",
 		"icono" : "pepino",
 		"color" : "#000000",
 		"calcium" : 16,
@@ -242,7 +242,7 @@ food = [
 	},
 	{
 		"name" : "Melocotón",
-		"description" : "",
+		"description" : "Melocotón pelado.",
 		"icono" : "melocoton",
 		"color" : "#000000",
 		"calcium" : 6,
@@ -294,7 +294,7 @@ food = [
 	},
 	{
 		"name" : "Banana",
-		"description" : "",
+		"description" : "Banana pelada.",
 		"icono" : "banana",
 		"color" : "#000000",
 		"calcium" : 5,
