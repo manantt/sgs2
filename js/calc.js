@@ -1,4 +1,5 @@
-var oxalatesRanges = [2.8, 4]
+var foodOxalatesRanges = [10, 50];
+var oxalatesRanges = [8, 16];
 var oxalatesHealthTexts = {
 	"low": '<i class="fa fa-2x fa-check-circle color-success" aria-hidden="true" data-toggle="popover" data-placement="top" data-trigger="hover" data-html="true" data-content="Bajos" data-html="true" title="<b>Bajos</b>"></i>',
 	"medium": '<i class="fa fa-2x fa-exclamation-triangle color-warning" aria-hidden="true" data-toggle="popover" data-placement="top" data-trigger="hover" data-html="true" data-content="Medios" data-html="true" title="<b>Medios</b>"></i>',
@@ -6,17 +7,23 @@ var oxalatesHealthTexts = {
 };
 var chart;
 
- $(document).ready(function(){
+$(document).ready(function(){
  	initChart();
  	customRange();
  	calc();
- 	generarTabla();
+ 	generateTable();
  	$(".food-range").change(function(){
  		calc();
  	});
- });
+});
 
- function calc(){
+function calc(){
+ 	calcFood();
+ 	//popovers
+ 	$('[data-toggle="popover"]').popover();
+}
+
+function calcFood(){
  	var totalQuantity = 0;
  	var totalCalcium = 0;
  	var totalPhosphor = 0;
@@ -39,7 +46,6 @@ var chart;
  		totalCh += (ch*quantity/100);
  		totalFats += (fats*quantity/100);
  		totalProteins += (proteins*quantity/100);
- 		console.error(proteins);
  	});
  	//quantity
  	$("#food-quantity").html(totalQuantity);
@@ -56,19 +62,31 @@ var chart;
 	 	chart.data.datasets[0].data = [totalFats,totalCh,totalProteins];
 	 	chart.update();
  	}
- 	//popovers
- 	$('[data-toggle="popover"]').popover();
- }
+ 	calcPap(totalQuantity);
+}
 
- function generarTabla(){
- 	var prototype = '<div class="food"><img src="images/__img__.svg" title="<h4>__name__</h4>" data-toggle="popover" data-trigger="hover" data-content="__description__<br><br>Ratio: __ratio__<br>Oxalatos: __oxalates__" data-html="true" data-placement="top"><div class="slider-wrapper slider-ghost __oxalate-range__"><input class="food-range input-range" data-slider-id="ex__id__Slider" type="text" data-slider-min="0" data-slider-tooltip="always" data-slider-max="500" data-slider-step="1" data-slider-value="0" data-food="__id__"/></div></div>';
+function calcPap(totalQuantity){
+	$("#pap-food").html(totalQuantity);
+	$("#pap-lineseeds").html((totalQuantity * 15 / 450).toFixed(2).replace(/\.?0+$/, ''));
+	$("#pap-prots").html((totalQuantity * 10 / 450).toFixed(2).replace(/\.?0+$/, ''));
+	$("#pap-yogurt").html((totalQuantity * 15 / 450).toFixed(2).replace(/\.?0+$/, ''));
+	$("#pap-egg").html((totalQuantity * 65 / 450).toFixed(2).replace(/\.?0+$/, ''));
+	$("#pap-acacia").html((totalQuantity * 1.25 / 450).toFixed(2).replace(/\.?0+$/, ''));
+	$("#pap-polen").html((totalQuantity * 5 / 450).toFixed(2).replace(/\.?0+$/, ''));
+	$("#pap-calcium").html((totalQuantity * 2.5 / 450).toFixed(2).replace(/\.?0+$/, ''));
+	$("#pap-oatmeal").html((totalQuantity * 2.5 / 450).toFixed(2).replace(/\.?0+$/, ''));
+	$("#pap-spirulina").html((totalQuantity * 2.5 / 450).toFixed(2).replace(/\.?0+$/, ''));
+}
+
+function generateTable(){
+ 	var prototype = '<div class="food"><img src="images/__img__.svg" title="<h4>__name__</h4>" data-toggle="popover" data-trigger="hover" data-content="__description__<br><br>Ratio: __ratio__<br>Oxalatos: __oxalates__" data-html="true" data-placement="top"><div class="slider-wrapper slider-ghost __oxalate-range__"><input class="food-range input-range" data-slider-id="ex__id__Slider" type="text" data-slider-min="0" data-slider-tooltip="always" data-slider-max="1000" data-slider-step="1" data-slider-value="0" data-food="__id__"/></div></div>';
  	$.each(food, function(key, value){
  		var html = prototype.replace(/__img__/g, value.icono)
  			.replace(/__id__/g, key).replace(/__name__/g, value.name)
  			.replace(/__description__/g, value.description)
  			.replace(/__ratio__/g, (value.calcium/value.phosphor).toFixed(2) + " : 1")
  			.replace(/__oxalates__/g, value.oxalates)
- 			.replace(/__oxalate-range__/g, value.oxalates <= 1 ? "oxa-low" : value.oxalates <= 10 ? "oxa-medium" : "oxa-high");
+ 			.replace(/__oxalate-range__/g, value.oxalates < foodOxalatesRanges[0] ? "oxa-low" : value.oxalates < foodOxalatesRanges[1] ? "oxa-medium" : "oxa-high");
  		$("#food-container").append(html);
  	});
  	$('[data-toggle="popover"]').popover(); 
