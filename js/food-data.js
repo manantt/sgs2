@@ -215,6 +215,19 @@ food = [
 		"proteins" : 0.3
 	},
 	{
+		"name" : "Melón",
+		"description" : "Melón pelado.",
+		"icono" : "melon",
+		"color" : "#000000",
+		"calcium" : 6,
+		"phosphor" : 11,
+		"oxalates" : 2,
+		"cal" : 36,
+		"carbohydrates" : 9.1,
+		"fats" : 0.1,
+		"proteins" : 0.5
+	},
+	{
 		"name" : "Tomate",
 		"description" : "Tomate rojo crudo.",
 		"icono" : "tomate",
@@ -239,6 +252,19 @@ food = [
 		"carbohydrates" : 9.5,
 		"fats" : 0.3,
 		"proteins" : 0.9
+	},
+	{
+		"name" : "Granada",
+		"description" : "Granada pelada.",
+		"icono" : "granada",
+		"color" : "#000000",
+		"calcium" : 10,
+		"phosphor" : 36,
+		"oxalates" : 14,
+		"cal" : 83,
+		"carbohydrates" : 18.7,
+		"fats" : 1.2,
+		"proteins" : 1.7
 	},
 	{
 		"name" : "Pimiento rojo",
@@ -278,5 +304,18 @@ food = [
 		"carbohydrates" : 22.8,
 		"fats" : 0.3,
 		"proteins" : 1.1
+	},
+	{
+		"name" : "Sandía",
+		"description" : "Sandía pelada.",
+		"icono" : "sandia",
+		"color" : "#000000",
+		"calcium" : 7,
+		"phosphor" : 112,
+		"oxalates" : 1,
+		"cal" : 30,
+		"carbohydrates" : 7.5,
+		"fats" : 0.1,
+		"proteins" : 0.6
 	},
 ];
