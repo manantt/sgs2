@@ -37,7 +37,7 @@ function calcFood(){
  		var phosphor = parseFloat(food[$(this).data("food")].phosphor);
  		var oxalates = parseFloat(food[$(this).data("food")].oxalates);
  		var ch = parseFloat(food[$(this).data("food")].carbohydrates);
- 		var fats = parseFloat(food[$(this).data("food")].carbohydrates);
+ 		var fats = parseFloat(food[$(this).data("food")].fats);
  		var proteins = parseFloat(food[$(this).data("food")].proteins);
  		totalQuantity += quantity;
  		totalCalcium += (calcium*quantity/100);
